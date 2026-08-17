@@ -1,0 +1,28 @@
+# Secrets & credentials — never commit these
+.env
+.env.*
+*.pem
+*.key
+**/credentials*.json
+**/secrets*.json
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Large / licensed data — keep only a reference in data/README.md
+*.csv
+*.zip
+*.tar.gz
+!data/README.md
